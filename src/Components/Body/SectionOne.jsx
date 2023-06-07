@@ -2,7 +2,8 @@ import { imageComputer } from "../../images/Load"
 
 function SectionOne() {
   return (
-    <section className="w-full text-center mt-32">
+    <section className="w-full text-center">
+
         <h2>Keep track of your snippets</h2>
         <blockquote className="paragraph">
             Clipboard instantly stores any item you copy in the cloud, 
@@ -10,10 +11,11 @@ function SectionOne() {
             devices. Our Mac and iOS apps will help you <br /> organize everything. 
         </blockquote>
 
-        <article className="flex mt-32">
-            <img src={imageComputer} alt="" />
+        <article className="flex flex-col lg:flex-row">
 
-            <article className="flex flex-col justify-evenly p-10 text-left">
+            <img src={imageComputer} alt="Image Computer" className="object-contain" />
+
+            <article className="flex flex-col gap-y-20 p-10 lg:text-left">
                 <div>
                     <h3>Quick Search</h3>
                     <blockquote className="font-BaiJamjuree text-grayish-blue">                    

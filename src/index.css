@@ -17,7 +17,7 @@
     @apply bg-white flex flex-col items-center
   }
   h1{
-    @apply text-[2rem] font-bold font-BaiJamjuree
+    @apply text-[2rem] font-bold font-BaiJamjuree text-center
   }
   h2{
     @apply text-[1.5rem] font-bold font-BaiJamjuree
@@ -26,13 +26,13 @@
     @apply text-[1rem] font-bold font-BaiJamjuree
   }
   .header{
-    @apply max-w-[1440px] relative flex flex-col items-center
+    @apply max-w-[1440px] relative flex flex-col items-center justify-items-center py-5 lg:py-24
   }
   .paragraph{
-    @apply font-BaiJamjuree text-grayish-blue p-5
+    @apply font-BaiJamjuree text-grayish-blue p-5 break-all
   }
   .btn{
-    @apply border bottom-2 p-3 rounded-full w-1/3
+    @apply border bottom-2 p-3 rounded-full w-full lg:w-1/3
   }
   .btn-primary{
     @apply bg-strong-cyan text-white font-bold

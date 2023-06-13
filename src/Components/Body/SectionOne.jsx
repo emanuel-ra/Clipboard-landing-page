@@ -13,7 +13,7 @@ function SectionOne() {
 
         <article className="flex flex-col lg:flex-row">
 
-            <img src={imageComputer} alt="Image Computer" className="object-contain" />
+            <img src={imageComputer} alt="Image Computer" className="object-contain lg:-translate-x-7" />
 
             <article className="flex flex-col gap-y-20 p-10 lg:text-left">
                 <div>

@@ -2,7 +2,7 @@ import { headerDesktop, headerMobile } from "./images/Load.js"
 import Logo from "./Components/Logo"
 function Header() {
   return (
-    <header className={`header `}>
+    <header className={`header`}>
             
         <picture className="absolute right-0 top-0 left-0">
             <source media="(max-width: 375px)" srcSet={headerMobile} />

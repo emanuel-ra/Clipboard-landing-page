@@ -11,7 +11,7 @@ function SectionTwo() {
             </blockquote>
         </article>
 
-        <img src={imageDevices} alt="" />
+        <img src={imageDevices} alt="Image Devices" className="w-[70%] m-auto" />
         
         <article className="text-center">
             <h2>Supercharge your workflow</h2>
